@@ -56,7 +56,6 @@ jobs:
           command: |
             cat /tmp/workspace/artifacts/artifact-2
 workflows:
-  version: 2
   build_and_test:
     jobs:
       - build
